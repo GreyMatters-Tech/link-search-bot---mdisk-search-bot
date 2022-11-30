@@ -1,5 +1,3 @@
-# (c) @AM_ROBOTS
-
 import os
 
 
@@ -18,7 +16,7 @@ class Config(object):
     
     
     
-🤖 My Name: <a href='https://t.me/nvslinkbot'>Lin Search Bot</a>
+🤖 My Name: <a href='https://t.me/Botfather'>Lin Search Bot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -26,7 +24,7 @@ class Config(object):
 
 📡 Server: <a href='koyeb.com'>Koyeb</a>
 
-👨‍💻 Created By: <a href='https://t.me/tgnvs'>TGNVS</a></b>
+👨‍💻 Created By: <a href='https://t.me/GreyMatter_Bot'>GreyMatter's Bot</a></b>
 """
 
     ABOUT_HELP_TEXT = """<b>Donation</b>
@@ -40,8 +38,8 @@ Of 10₹,20₹,30₹,50₹,100₹ 😁
 
 💸Payment Methods:
 Only UPI
-UPI:-</b> tgnvs@airtel
--<b> <a href=https://upier.vercel.app/pay/tgnvs@airtel?am=15>Donation Link</a></b>
+UPI:-</b> greymatter658@ybl
+-<b> <a href=https://www.telegram.dog/greymatters_about>Donation Link</a></b>
 """
 
     HOME_TEXT = """
@@ -51,7 +49,7 @@ I'm Link Search Bot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @tgnvs</a></b>
+<a>Made With ❤ By @GreyMatter_Bots</a></b>
 """
 
 
@@ -62,6 +60,6 @@ I'm Link Search Bot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @tgnvs</a></b>
+<a>Made With ❤ By @GreyMatter_Bots</a></b>
 """
 
