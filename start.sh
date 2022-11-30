@@ -1,5 +1,5 @@
 echo "Cloning Repo...."
-git clone https://github.com/AM-ROBOTS/Mdisk-Search-Bot.git /Mdisk-Search-Bot
+git clone https://github.com/Greymattersbot/link-search-bot---mdisk-search-bot /Mdisk-Search-Bot
 cd /Mdisk-Search-Bot
 pip3 install -r requirements.txt
 echo "Starting Bot....ANURAG"
