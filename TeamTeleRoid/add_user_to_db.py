@@ -1,5 +1,3 @@
-# (c) @AM_ROBOTS
-
 from configs import Config
 from handlers.database import db
 from pyrogram import Client
