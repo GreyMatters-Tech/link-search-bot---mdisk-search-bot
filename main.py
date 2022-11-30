@@ -1,6 +1,6 @@
+import asyncio
 from aiohttp import web
 from plugins import web_server
-
 from configs import Config
 from pyrogram import Client, filters, compose
 from pyrogram.errors import QueryIdInvalid
@@ -132,10 +132,13 @@ async def button(bot, cmd: CallbackQuery):
 			parse_mode="html"
 		)
 #web-response
-app = web.AppRunner(await web_server())
-await app.setup()
-bind_address = "0.0.0.0"
-await web.TCPSite(app, bind_address, PORT).start()
+async def webApp():
+    app = web.AppRunner(await web_server())
+    await app.setup()
+    bind_address = "0.0.0.0"
+    await web.TCPSite(app, bind_address, PORT).start()
+
+asyncio.run(webApp)
 
 # Start Multi Clients
-compose([Bot, User])
+compose([Bot, Client])
