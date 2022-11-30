@@ -1,5 +1,5 @@
 from configs import Config
-from pyrogram import Client, filters, compose
+from pyrogram import Client, filters, idle
 from pyrogram.errors import QueryIdInvalid
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InlineQuery, InlineQueryResultArticle, \
     InputTextMessageContent
@@ -129,5 +129,12 @@ async def button(bot, cmd: CallbackQuery):
 			parse_mode="html"
 		)
 
-# Start Multi Clients
-compose([Bot, User])
+# Start Clients
+Bot.start()
+User.start()
+# Loop Clients till Disconnects
+idle()
+# After Disconnects,
+# Stop Clients
+Bot.stop()
+User.stop()
