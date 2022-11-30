@@ -1,5 +1,3 @@
-# (c) @AM_ROBOTS
-
 from base64 import standard_b64encode, standard_b64decode
 
 
