@@ -1,5 +1,3 @@
-# (c) @AM_ROBOTS
-
 import asyncio
 from configs import Config
 from pyrogram import Client
