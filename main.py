@@ -1,3 +1,6 @@
+from aiohttp import web
+from plugins import web_server
+
 from configs import Config
 from pyrogram import Client, filters, idle
 from pyrogram.errors import QueryIdInvalid
@@ -128,7 +131,10 @@ async def button(bot, cmd: CallbackQuery):
 			),
 			parse_mode="html"
 		)
-
+    app = web.AppRunner(await web_server())
+    await app.setup()
+    bind_address = "0.0.0.0"
+    await web.TCPSite(app, bind_address, PORT).start()
 # Start Clients
 Bot.start()
 User.start()
