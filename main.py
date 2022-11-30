@@ -2,7 +2,7 @@ from aiohttp import web
 from plugins import web_server
 
 from configs import Config
-from pyrogram import Client, filters, idle
+from pyrogram import Client, filters, compose
 from pyrogram.errors import QueryIdInvalid
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InlineQuery, InlineQueryResultArticle, \
     InputTextMessageContent
@@ -137,12 +137,5 @@ await app.setup()
 bind_address = "0.0.0.0"
 await web.TCPSite(app, bind_address, PORT).start()
 
-# Start Clients
-Bot.start()
-User.start()
-# Loop Clients till Disconnects
-idle()
-# After Disconnects,
-# Stop Clients
-Bot.stop()
-User.stop()
+# Start Multi Clients
+compose([Bot, User])
