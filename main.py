@@ -1,5 +1,3 @@
-# (c) @AM_ROBOTS
-
 from configs import Config
 from pyrogram import Client, filters, idle
 from pyrogram.errors import QueryIdInvalid
@@ -28,8 +26,8 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://graph.org/file/2af22b9d619409353804a.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-					[InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@axisbank')],
-					[InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/nvsmovielink")],
+					[InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')],
+					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")],
 					[InlineKeyboardButton("Donation", callback_data="Help_msg"),
                                         InlineKeyboardButton("About", callback_data="About_msg")]
 				]))
@@ -39,8 +37,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-		[InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@axisbank')
-	 ],[InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/nvsmovielink"), 
+		[InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
+	 ],[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots"), 
              InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")]
         ])
     )
@@ -78,10 +76,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@axisbank')
+						InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
 					],
 					[
-						InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/nvsmovielink")
+						InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")
 					],
 					[
 						InlineKeyboardButton("Home", callback_data="gohome")
@@ -97,10 +95,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-					InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@axisbank')
+					InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
 					],
 					[
-					InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/nvsmovielink")
+					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")
 					], 
                                         [
 					InlineKeyboardButton("Home", callback_data="gohome"),
@@ -117,10 +115,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
                                         [
-					InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@axisbank')
+					InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
 					],
 					[
-					InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/nvsmovielink")
+					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")
 					],
 					[
 					InlineKeyboardButton("Donation", callback_data="Help_msg"),
