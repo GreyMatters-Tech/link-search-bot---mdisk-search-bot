@@ -28,7 +28,7 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 ## Credits -
 - Thanks to TeamTeleRoid.
 - Thanks to Royal Krrishna.
-- Thanks to TGNVS for adding Koyeb Support.
+- Thanks to TGNVS.
 
 
 
