@@ -3,7 +3,7 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/AM-ROBOTS/Mdisk-Search-Bot)   
 
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Greymattersbot/link-search-bot---mdisk-search-bot&branch=koyeb&name=linkfindbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Greymattersbot/link-search-bot---mdisk-search-bot&branch=main&name=linkfindbot)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/TGNVS/link-Search-Bot/main/screenshort/Screenshot%20mdis180420.png" alt="Koyeb Screenshot">
