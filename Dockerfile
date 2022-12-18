@@ -16,7 +16,7 @@ RUN cd /
 RUN pip3 install -U -r requirements.txt
 RUN mkdir /MessageSearchBot
 WORKDIR /MessageSearchBot
-COPY main.py /main.py
+COPY start.sh /start.sh
 
 # Running MessageSearchBot
-CMD ["python3", "main.py"]
+CMD ["/bin/bash", "/start.sh"]
