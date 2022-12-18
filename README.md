@@ -26,7 +26,6 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 - {Link}
 
 ## Credits -
-- Thanks to TeamTeleRoid.
 - Thanks to Royal Krrishna.
 - Thanks to TGNVS.
 
