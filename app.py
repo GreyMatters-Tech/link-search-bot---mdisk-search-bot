@@ -6,4 +6,4 @@ app = Flask(__name__)
 def hello_world():
    return 'Hello, World!'
 
-os.system("git clone -b test https://github.com/Greymattersbot/link-search-bot---mdisk-search-bot okk && cd okk && pip3 install -U -r requirements.txt && gunicorn app:app && python3 main.py &")
+os.system("git clone test https://github.com/Greymattersbot/link-search-bot---mdisk-search-bot okk && cd okk && pip3 install -U -r requirements.txt && gunicorn app:app && python3 main.py &")
