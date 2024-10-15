@@ -16,7 +16,7 @@ class Config(object):
     
     
     
-🤖 My Name: <a href='https://youtube.com/@GreyMattersBot'>Link Search Bot</a>
+🤖 My Name: <a href='https://youtube.com/@asexplanation-qr7ld?si=ekk_FMy94uhztqOx'>Link Search Bot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -24,10 +24,10 @@ class Config(object):
 
 📡 Server: <a href='koyeb.com'>Koyeb</a>
 
-👨‍💻 Created By: <a href='https://t.me/GreyMatter_Bot'>GreyMatter's Bot</a></b>
+👨‍💻 Created By: <a href='http://t.me/anime_request_94_bot'>Devildeals Bot</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Creator : <a href='https://t.me/GreyMatter_Bot'>GreyMatter's Bot</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Creator : <a href='http://t.me/anime_request_94_bot'>Devildeals Bot</a>
 If You Want Your Own Bot Like This Then You Can Contact Our Creator.</b>
 """
 
@@ -38,7 +38,7 @@ I'm Link Search Bot.🤖
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @GreyMatter_Bots</a></b>
+<a>Made With ❤ By @anime_request_94_bot</a></b>
 """
 
 
@@ -49,6 +49,6 @@ I'm Link Search Bot.🤖
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @GreyMatter_Bots</a></b>
+<a>Made With ❤ By @anime_request_94_bot</a></b>
 """
 
